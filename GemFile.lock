@@ -1,0 +1,108 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (4.0.1)
+    builder (3.3.0)
+    bundle (0.0.1)
+      bundler
+    cucumber (7.1.0)
+      builder (~> 3.2, >= 3.2.4)
+      cucumber-core (~> 10.1, >= 10.1.0)
+      cucumber-create-meta (~> 6.0, >= 6.0.1)
+      cucumber-cucumber-expressions (~> 14.0, >= 14.0.0)
+      cucumber-gherkin (~> 22.0, >= 22.0.0)
+      cucumber-html-formatter (~> 17.0, >= 17.0.0)
+      cucumber-messages (~> 17.1, >= 17.1.1)
+      cucumber-wire (~> 6.2, >= 6.2.0)
+      diff-lcs (~> 1.4, >= 1.4.4)
+      mime-types (~> 3.3, >= 3.3.1)
+      multi_test (~> 0.1, >= 0.1.2)
+      sys-uname (~> 1.2, >= 1.2.2)
+    cucumber-core (10.1.1)
+      cucumber-gherkin (~> 22.0, >= 22.0.0)
+      cucumber-messages (~> 17.1, >= 17.1.1)
+      cucumber-tag-expressions (~> 4.1, >= 4.1.0)
+    cucumber-create-meta (6.0.4)
+      cucumber-messages (~> 17.1, >= 17.1.1)
+      sys-uname (~> 1.2, >= 1.2.2)
+    cucumber-cucumber-expressions (14.0.0)
+    cucumber-gherkin (22.0.0)
+      cucumber-messages (~> 17.1, >= 17.1.1)
+    cucumber-html-formatter (17.0.0)
+      cucumber-messages (~> 17.1, >= 17.1.0)
+    cucumber-messages (17.1.1)
+    cucumber-tag-expressions (4.1.0)
+    cucumber-wire (6.2.1)
+      cucumber-core (~> 10.1, >= 10.1.0)
+      cucumber-cucumber-expressions (~> 14.0, >= 14.0.0)
+    diff-lcs (1.6.2)
+    ffi (1.17.3-x64-mingw-ucrt)
+    httparty (0.20.0)
+      mime-types (~> 3.0)
+      multi_xml (>= 0.5.2)
+    logger (1.7.0)
+    memoist3 (1.0.0)
+    mime-types (3.7.0)
+      logger
+      mime-types-data (~> 3.2025, >= 3.2025.0507)
+    mime-types-data (3.2025.0924)
+    multi_test (0.1.2)
+    multi_xml (0.8.0)
+      bigdecimal (>= 3.1, < 5)
+    rspec (3.13.2)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.6)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.7)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.6)
+    sys-uname (1.4.1)
+      ffi (~> 1.1)
+      memoist3 (~> 1.0.0)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  bundle (~> 0.0.1)
+  cucumber (~> 7.1)
+  httparty (~> 0.20.0)
+  rspec (~> 3.10)
+
+CHECKSUMS
+  bigdecimal (4.0.1) sha256=8b07d3d065a9f921c80ceaea7c9d4ae596697295b584c296fe599dd0ad01c4a7
+  builder (3.3.0) sha256=497918d2f9dca528fdca4b88d84e4ef4387256d984b8154e9d5d3fe5a9c8835f
+  bundle (0.0.1) sha256=9a26002c267dc1078ce38cd125f6d6ce5104f81d758c0323d09870a2b3a11fa9
+  cucumber (7.1.0) sha256=f9566e5e3050066ef22e19c9b43758787b71427235ea192ffdccc41e2a0fa2f5
+  cucumber-core (10.1.1) sha256=d929773b4f821b20427876602c3698525280acf2c230bd3c33eeee1e08a25630
+  cucumber-create-meta (6.0.4) sha256=f939306cf020b5522c390329705ea4249f54624c901e61a1fb86baaf0051dc48
+  cucumber-cucumber-expressions (14.0.0) sha256=0ee6bea024b8c35bf4514f32c119bbc016f1d64eff45ef86dd06655071f3212f
+  cucumber-gherkin (22.0.0) sha256=f97293c8a3343db6765ff58811c13143944c3cb22e001830248fed8adbc1c7b7
+  cucumber-html-formatter (17.0.0) sha256=b218c9a89ea2ef020e0cb36cb856a09c0ceb7e9b0507bdb58050aafa7f53a7c1
+  cucumber-messages (17.1.1) sha256=d2dd7ba0b91f5834099361938c463671e8704ba8b72bbe94e0a5c95f157f990e
+  cucumber-tag-expressions (4.1.0) sha256=0d279dcaf6af70a8b927202c9d2ca31b5417190c52d0d6c264504dc8c8d33a6c
+  cucumber-wire (6.2.1) sha256=699dcde817ae0e98826606e5f8537eb3755d0f97c75806ee9193319a606ebede
+  diff-lcs (1.6.2) sha256=9ae0d2cba7d4df3075fe8cd8602a8604993efc0dfa934cff568969efb1909962
+  ffi (1.17.3-x64-mingw-ucrt) sha256=5f1d7d067a9a1058ad183dba25b05557cd51c85fc1768c49338eabc1cf242d7c
+  httparty (0.20.0) sha256=490d2a028a5accc611f1685d479d80ef80b129140d24a93c53c119f578614867
+  logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
+  memoist3 (1.0.0) sha256=686e42402cf150a362050c23143dc57b0ef88f8c344943ff8b7845792b50d56f
+  mime-types (3.7.0) sha256=dcebf61c246f08e15a4de34e386ebe8233791e868564a470c3fe77c00eed5e56
+  mime-types-data (3.2025.0924) sha256=f276bca15e59f35767cbcf2bc10e023e9200b30bd6a572c1daf7f4cc24994728
+  multi_test (0.1.2) sha256=adfbe09decee22deea2dc7a6b60698766306d3e74e9af0e03199de80b029a3eb
+  multi_xml (0.8.0) sha256=8d4adcd092f8e354db496109829ffd36969fdc8392cb5fde398ca800d9e6df73
+  rspec (3.13.2) sha256=206284a08ad798e61f86d7ca3e376718d52c0bc944626b2349266f239f820587
+  rspec-core (3.13.6) sha256=a8823c6411667b60a8bca135364351dda34cd55e44ff94c4be4633b37d828b2d
+  rspec-expectations (3.13.5) sha256=33a4d3a1d95060aea4c94e9f237030a8f9eae5615e9bd85718fe3a09e4b58836
+  rspec-mocks (3.13.7) sha256=0979034e64b1d7a838aaaddf12bf065ea4dc40ef3d4c39f01f93ae2c66c62b1c
+  rspec-support (3.13.6) sha256=2e8de3702427eab064c9352fe74488cc12a1bfae887ad8b91cba480ec9f8afb2
+  sys-uname (1.4.1) sha256=ed2278ec670ee8af5eb5420d3a98e22188051f6241180db7c779993db2739a16
+
+BUNDLED WITH
+  4.0.3
